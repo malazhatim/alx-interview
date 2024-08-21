@@ -8,7 +8,7 @@ def validUTF8(data):
     """
     skip = 0
     a = len(data)
-    for i in range(n):
+    for i in range(a):
         if skip > 0:
             skip -= 1
             continue
